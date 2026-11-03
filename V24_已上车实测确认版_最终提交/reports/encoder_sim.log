@@ -1,2 +1,0 @@
-PASS: signed forward/reverse AB counting and illegal-transition diagnostic
-tests/encoder_tb.sv:19: $finish called at 30046000 (1ps)

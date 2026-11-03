@@ -1,6 +1,0 @@
-trip 0: x=2002.7 y=0.0 heading=0.00 path=2002.7 first_side=0
-trip 1: x=2000.8 y=6.8 heading=2.01 path=2147.5 first_side=1
-trip 2: x=1999.5 y=5.3 heading=2.45 path=2147.3 first_side=-1
-trip 3: x=2000.0 y=3.8 heading=1.99 path=2146.7 first_side=1
-PASS: 2m straight; front/left/right raycast obstacle; asymmetric steering and actuator lag; swept collision; physical vs estimated endpoint; blocked/invalid/stale/stop; frame confirmation
-tests/navigation_tb.sv:149: $finish called at 953106000 (1ps)

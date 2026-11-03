@@ -1,2 +1,0 @@
-PASS yellow_fullres_tb: 640x480, cup, full-yellow rejection, empty; max analysis cycles=90642
-tests/yellow_fullres_tb.sv:34: $finish called at 189408680000 (1ps)

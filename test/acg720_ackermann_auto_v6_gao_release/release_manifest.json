@@ -1,0 +1,20 @@
+{
+  "built_on": "2026-11-02",
+  "firmware": "prebuilt/ACKERMANN_AUTO_V6_GAO_NOIMU_D16.fs",
+  "firmware_sha256": "2a4cf272b6deb51c2d36a3acff1bd1c5374e45f4e13a0074d3ab385bb39eaf9f",
+  "tool": "Gowin V1.9.12.03",
+  "device": "GW5AT-LV60PG484AC1/I0",
+  "servo_pin": "F13",
+  "encoder_left_a_pin": "D16",
+  "hardware_tested": true,
+  "hardware_status": "当前V6新固件已上车测试通过；由参赛团队于2026-11-02确认",
+  "source_manifest": "reports/build_source_manifest.json",
+  "timing_closed": false,
+  "setup_violated_endpoints": 1,
+  "hold_violated_endpoints": 0,
+  "timing_report": "reports/build_evidence/pnr/ackermann_auto_v6_gao_tr_content.html",
+  "pins_report": "reports/build_evidence/pnr/ackermann_auto_v6_gao.pin.html",
+  "hardware_test_confirmed_on": "2026-11-02",
+  "hardware_test_basis": "参赛团队确认：V6新固件已上车测试通过",
+  "hardware_test_record": "reports/hardware_test_record.json"
+}

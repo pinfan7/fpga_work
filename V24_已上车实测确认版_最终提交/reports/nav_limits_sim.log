@@ -1,2 +1,0 @@
-PASS: endpoint needs both lateral and heading alignment; X goal success; heading divergence; encoder reverse
-tests/nav_limits_tb.sv:33: $finish called at 700000 (1ps)

@@ -1,0 +1,61 @@
+*** GOWIN Tcl Command Line Console  *** 
+alog error: failed to open log file: 'C:/Users/???/AppData/Local/GowinSemi/IDE/cache/sh.log'
+Open project E:/fpga_work/acg720_ackermann_servo_v2/ackermann_servo_v2.gprj finished
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\button_event.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\acg720_servo_top.v'
+Compiling module 'acg720_servo_top'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\acg720_servo_top.v":6)
+Compiling module 'button_event'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\button_event.v":3)
+Compiling module 'servo_pwm'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v":5)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 20("E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v":32)
+NOTE  (EX0101) : Current top module is "acg720_servo_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2.vg" completed
+[100%] Generate report file "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2.vg"
+Parsing netlist file "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2.vg" completed
+Processing netlist completed
+Reading constraint file: "E:\fpga_work\acg720_ackermann_servo_v2\constraints\acg720_servo.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "E:\fpga_work\acg720_ackermann_servo_v2\impl\pnr\ackermann_servo_v2.power.html" completed
+Generate file "E:\fpga_work\acg720_ackermann_servo_v2\impl\pnr\ackermann_servo_v2.pin.html" completed
+Generate file "E:\fpga_work\acg720_ackermann_servo_v2\impl\pnr\ackermann_servo_v2.rpt.html" completed
+Generate file "E:\fpga_work\acg720_ackermann_servo_v2\impl\pnr\ackermann_servo_v2.rpt.txt" completed
+Generate file "E:\fpga_work\acg720_ackermann_servo_v2\impl\pnr\ackermann_servo_v2.tr.html" completed
+Sun Oct 11 15:02:56 2026
+

@@ -1,2 +1,0 @@
-PASS nav_integration: held-key boot, UART TOF, real PWM/servo, visual steering, IMU fault/stale brake and manual recovery, 100mm stop, restart, immediate S3, stale-source stop
-tests/nav_integration_tb.sv:74: $finish called at 32951250000 (1ps)

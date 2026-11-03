@@ -1,0 +1,42 @@
+{
+  "hardware_tested": false,
+  "programmer_used": false,
+  "device": "GW5AT-LV60PG484AC1/I0",
+  "release": "E:\\fpga_work\\acg720_ackermann_servo_v2\\prebuilt\\02_SERVO_V2_ANGLE_SRAM.fs",
+  "bytes": 17311931,
+  "sha256": "C48C476C7B11B5FC4FA94B6FC153D25C24C811F4116F268516D3A1B9918FC842",
+  "source_files": {
+    "rtl\\button_event.v": "7EA88F5B326FDFE46636E0E869741092F5157F6C3CFFD8970000F96608F631A5",
+    "rtl\\servo_pwm.v": "FBE2483D6547582313AA8A15CD17D00A31BBD8B06E2A00A78ADB0609262B4B15",
+    "rtl\\acg720_servo_top.v": "B78E82523F0D35D089C2727583B3ECADE07108B501B24ABEFCF5273D6857BBAF",
+    "constraints\\acg720_servo.cst": "BC2438ECE908014103900B753A7495B9FC2CF1405C194E14DD02F639A4B421F2",
+    "constraints\\acg720_servo.sdc": "D5D2F07C6646EB6E734DAFDC2A31E2A219EC3E4FABD27C57B3CABB5F7F57EBE4"
+  },
+  "timing": {
+    "setup_slack_ns": 5.787,
+    "hold_slack_ns": 0.247
+  },
+  "pins": {
+    "clk50M": "Y18/8",
+    "reset_n": "F15/1",
+    "key_enable_n": "A20/2",
+    "key_minus_n": "B20/2",
+    "key_center_n": "A21/2",
+    "key_plus_n": "B21/2",
+    "servo_pwm_out": "E13/1",
+    "led[0]": "M22/5",
+    "led[1]": "N22/5",
+    "led[2]": "L21/5",
+    "led[3]": "K21/5",
+    "led[4]": "K22/5",
+    "led[5]": "J22/5",
+    "led[6]": "H22/5",
+    "led[7]": "M21/5"
+  },
+  "preserved_v12_sha256": "6D4AD83817EB7A9500ABD77314B1092974B77022F48162D0CE7F41FBB7D6C666",
+  "preserved_servo_v1_sha256": "AA6A86F7D8CC520D28458F7924206EBF0AF54FAF6F0D7054289B7F91316B8EAF",
+  "tests": [
+    "production_50mhz_pwm",
+    "accelerated_1mhz_button_control"
+  ]
+}

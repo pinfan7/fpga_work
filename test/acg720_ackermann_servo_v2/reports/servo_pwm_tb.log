@@ -1,0 +1,2 @@
+PASS production 50MHz PWM: 20ms, 1400/1444/1500/1556/1600us, hard clamps, frame-latching, disable, reset
+E:\fpga_work\test\acg720_ackermann_servo_v2\sim\servo_pwm_tb.sv:58: $finish called at 322200140000 (1ps)

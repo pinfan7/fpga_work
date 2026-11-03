@@ -1,0 +1,29 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\button_event.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_ackermann_servo_v2\rtl\acg720_servo_top.v'
+Compiling module 'acg720_servo_top'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\acg720_servo_top.v":6)
+Compiling module 'button_event'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\button_event.v":3)
+Compiling module 'servo_pwm(MIN_US=1389,MAX_US=1611)'("E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v":5)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 20("E:\fpga_work\acg720_ackermann_servo_v2\rtl\servo_pwm.v":32)
+NOTE  (EX0101) : Current top module is "acg720_servo_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2.vg" completed
+[100%] Generate report file "E:\fpga_work\acg720_ackermann_servo_v2\impl\gwsynthesis\ackermann_servo_v2_syn.rpt.html" completed
+GowinSynthesis finish

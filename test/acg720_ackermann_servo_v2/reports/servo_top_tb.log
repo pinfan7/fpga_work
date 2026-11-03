@@ -1,0 +1,2 @@
+PASS controls: boot-held interlock, bounce, enable/disable, fixed +/-10deg presets (1389/1611us), limit LEDs, no accumulation, center, reversed installation, simultaneous keys, reset
+E:\fpga_work\test\acg720_ackermann_servo_v2\sim\servo_top_tb.sv:72: $finish called at 469020001000 (1ps)

@@ -1,0 +1,2 @@
+PASS: real attitude pipeline stationary calibration, gyro sign/scale, 90deg rotation/return, link-loss invalidation
+tests/imu_heading_tb.sv:26: $finish called at 285820000 (1ps)

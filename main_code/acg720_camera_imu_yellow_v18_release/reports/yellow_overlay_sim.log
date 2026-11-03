@@ -1,0 +1,2 @@
+PASS yellow_overlay_tb: every RGB pixel and HS/VS/DE aligned
+tests/yellow_overlay_tb.sv:26: $finish called at 829640000 (1ps)

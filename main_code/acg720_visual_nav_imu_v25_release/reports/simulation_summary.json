@@ -1,0 +1,90 @@
+[
+  {
+    "test": "motor_chain",
+    "passed": true,
+    "evidence": [
+      "PASS: both real encoder-window/RPM/target/PI/PWM pipelines update; forward/reverse polarity; stop gate\r"
+    ],
+    "log": "reports/motor_chain_sim.log"
+  },
+  {
+    "test": "encoder",
+    "passed": true,
+    "evidence": [
+      "PASS: signed forward/reverse AB counting and illegal-transition diagnostic\r"
+    ],
+    "log": "reports/encoder_sim.log"
+  },
+  {
+    "test": "balance",
+    "passed": true,
+    "evidence": [
+      "PASS: intended ratio survives >25cm raw difference; true mismatch persists before fault9; fault counters preserved\r"
+    ],
+    "log": "reports/balance_sim.log"
+  },
+  {
+    "test": "tof3",
+    "passed": true,
+    "evidence": [
+      "PASS: 3 UARTs, frame sync/checksum/status/range/framing/gap/timeout, LEDs, config bytes, telemetry, inactive drive outputs\r"
+    ],
+    "log": "reports/tof3_sim.log"
+  },
+  {
+    "test": "default_uart",
+    "passed": true,
+    "evidence": [
+      "PASS: 50MHz / 9600 baud, start glitch rejection, +/-2 percent sender baud tolerance, timeout\r"
+    ],
+    "log": "reports/default_uart_sim.log"
+  },
+  {
+    "test": "nav_cdc",
+    "passed": true,
+    "evidence": [
+      "PASS nav_cdc: atomic boxes, invalid message, frozen-frame expiry, source disable\r"
+    ],
+    "log": "reports/nav_cdc_sim.log"
+  },
+  {
+    "test": "visual_nav",
+    "passed": true,
+    "evidence": [
+      "PASS visual_nav: acquisition, signed steering, creep, 100mm arrival, latches, restart, vision/TOF/IMU/encoder/watchdogs/limits/S3\r"
+    ],
+    "log": "reports/visual_nav_sim.log"
+  },
+  {
+    "test": "nav_integration",
+    "passed": true,
+    "evidence": [
+      "PASS nav_integration: held-key boot, UART TOF, real PWM/servo, visual steering, IMU fault/stale brake and manual recovery, 100mm stop, restart, immediate S3, stale-source stop\r"
+    ],
+    "log": "reports/nav_integration_sim.log"
+  },
+  {
+    "test": "visual_imu",
+    "passed": true,
+    "evidence": [
+      "PASS visual_imu: bearing, real yaw correction, overshoot damping, wrap, image latency, fault/freshness, mechanical limits, delayed-image yaw plant\r"
+    ],
+    "log": "reports/visual_imu_sim.log"
+  },
+  {
+    "test": "imu_heading",
+    "passed": true,
+    "evidence": [
+      "PASS: real attitude pipeline stationary calibration, gyro sign/scale, 90deg rotation/return, link-loss invalidation\r"
+    ],
+    "log": "reports/imu_heading_sim.log"
+  },
+  {
+    "test": "yellow_detect",
+    "passed": true,
+    "evidence": [
+      "PASS yellow_detect: unchanged production RGB/shape thresholds, actual 640x480 yellow box, disappearance, whole-screen rejection\r"
+    ],
+    "log": "reports/yellow_detect_sim.log"
+  }
+]

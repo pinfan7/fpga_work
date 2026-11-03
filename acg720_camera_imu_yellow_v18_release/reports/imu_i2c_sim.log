@@ -1,8 +1,0 @@
-test single
-test burst
-test write
-test clear
-clear passed
-stretch passed
-PASS imu_i2c_tb: read/write,12-byte burst,final NACK,STOP,address NACK,bus clear,stretch,stuck SDA/SCL,recovery
-tests/imu_i2c_tb.sv:78: $finish called at 38388000000 (1ps)

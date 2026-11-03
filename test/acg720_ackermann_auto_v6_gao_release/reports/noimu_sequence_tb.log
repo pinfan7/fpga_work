@@ -1,0 +1,2 @@
+PASS: six 1m segments, both arc retraces, right center/settle/motion, independent counts, abort and feedback faults
+E:\fpga_work\test\acg720_ackermann_auto_v6_gao_release\sim\noimu_sequence_tb.sv:83: $finish called at 1481757000 (1ps)

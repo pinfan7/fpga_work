@@ -1,0 +1,2 @@
+PASS yellow_detect: unchanged production RGB/shape thresholds, actual 640x480 yellow box, disappearance, whole-screen rejection
+tests/yellow_detect_tb.sv:32: $finish called at 38667800000 (1ps)

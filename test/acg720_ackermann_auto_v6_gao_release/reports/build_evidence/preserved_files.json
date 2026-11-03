@@ -1,0 +1,67 @@
+[
+  {
+    "original": "impl/gwsynthesis/ackermann_auto_v6_gao.log",
+    "retained": "reports/build_evidence/gwsynthesis/ackermann_auto_v6_gao.log",
+    "sha256": "3e3999332ff8a480243fcee37d14fa21ba13cd8c7934c3ab893449f0c5cebe82"
+  },
+  {
+    "original": "impl/gwsynthesis/ackermann_auto_v6_gao_syn.rpt.html",
+    "retained": "reports/build_evidence/gwsynthesis/ackermann_auto_v6_gao_syn.rpt.html",
+    "sha256": "73ecb093d2cbe3306e653f80884e142c529619511e041d4e07b8f8484e0150fb"
+  },
+  {
+    "original": "impl/gwsynthesis/ackermann_auto_v6_gao_syn_resource.html",
+    "retained": "reports/build_evidence/gwsynthesis/ackermann_auto_v6_gao_syn_resource.html",
+    "sha256": "a8073fde83a362e33f4a61253da39d3af0fd476467bb34d1a97128c0b1b282a0"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.log",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.log",
+    "sha256": "c74557f958f1adf06c3ff68ae466d0e9becd2fa83ec8af3eab38b2a6a1cc7120"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.pin.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.pin.html",
+    "sha256": "d18bf8c912d3ac80bb7bfe456cf5217611bc1850577638738e66c47b0865d958"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.power.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.power.html",
+    "sha256": "89f31d3ea4ac4a4193f247d1b75a6dcf01399dc798dd51300f260ddd5335003a"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.rpt.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.rpt.html",
+    "sha256": "ed2da22ddb25aed4f2d93ebd983131a46a559ceab24b8582ef198f7058a06417"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.rpt.txt",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.rpt.txt",
+    "sha256": "d27121609062668662fe4ab4f29f67e6c11bf0227a59df92b78b1de611ed5eaa"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.timing_paths",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.timing_paths",
+    "sha256": "870eb988f1c0e676e4a891bd5aff28e5eb62ac6783bba77340fd18f152957a64"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao.tr.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao.tr.html",
+    "sha256": "b011965496c7b298caa89d076680dd529c437e617a54409a5ca31bf8b10ca46a"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao_tr_cata.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao_tr_cata.html",
+    "sha256": "877dd438df084bfe042a0a3064fc8b0dc9164bfd7d40583e66632025572a1859"
+  },
+  {
+    "original": "impl/pnr/ackermann_auto_v6_gao_tr_content.html",
+    "retained": "reports/build_evidence/pnr/ackermann_auto_v6_gao_tr_content.html",
+    "sha256": "64fe0e65ef26b79fafd21c8306a964e6ee42986309595f823841908158ad64d9"
+  },
+  {
+    "original": "impl/wave/drive_v6_core0.vcd",
+    "retained": "captures/archived_impl/wave/drive_v6_core0.vcd",
+    "sha256": "c064eb78455c22bb408f8ea8abce618696d21db9ff5f8b67efb478616d3a3a8f"
+  }
+]

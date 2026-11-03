@@ -1,2 +1,0 @@
-PASS visual_imu: bearing, real yaw correction, overshoot damping, wrap, image latency, fault/freshness, mechanical limits, delayed-image yaw plant
-tests/visual_imu_tb.sv:67: $finish called at 983860000 (1ps)

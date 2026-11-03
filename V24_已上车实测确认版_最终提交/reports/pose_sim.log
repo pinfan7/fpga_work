@@ -1,2 +1,0 @@
-PASS: pose distance; 30/-90 degree projection; heading wrap; origin reset; disabled tracking; count spike
-tests/pose_tb.sv:31: $finish called at 1300000 (1ps)

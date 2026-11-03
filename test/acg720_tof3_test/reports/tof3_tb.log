@@ -1,0 +1,2 @@
+PASS: 3 UARTs, last-good retention, rejected-frame age/timeout, checksum/status/range/framing/gap, LEDs, config bytes, telemetry, inactive drive outputs
+E:\fpga_work\test\acg720_tof3_test\sim\tof3_tb.sv:106: $finish called at 380880000000 (1ps)

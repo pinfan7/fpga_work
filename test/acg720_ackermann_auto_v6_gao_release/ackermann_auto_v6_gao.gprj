@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project><Template>FPGA</Template><Version>5</Version>
+<Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device><FileList>
+<File path="rtl/ackermann_auto_top.v" type="file.verilog" enable="1"/>
+<File path="rtl/auto_sequence.v" type="file.verilog" enable="1"/>
+<File path="rtl/car_closed_loop.v" type="file.verilog" enable="1"/>
+<File path="rtl/button_event.v" type="file.verilog" enable="1"/>
+<File path="rtl/servo_pwm.v" type="file.verilog" enable="1"/>
+<File path="constraints/drive.cst" type="file.cst" enable="1"/>
+<File path="constraints/auto.sdc" type="file.sdc" enable="1"/>
+<File path="debug/drive_v6.rao" type="file.gao" enable="1"/>
+</FileList></Project>

@@ -1,0 +1,2 @@
+PASS: intended ratio survives >25cm raw difference; true mismatch persists before fault9; fault counters preserved
+tests/balance_tb.sv:44: $finish called at 129110000 (1ps)

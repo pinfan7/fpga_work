@@ -1,0 +1,13 @@
+{
+  "confirmation_date": "2026-11-02",
+  "actual_test_date": null,
+  "basis": "参赛团队确认：V6新固件已上车测试通过",
+  "project": "ackermann_auto_v6_gao.gprj",
+  "release_firmware": "prebuilt/ACKERMANN_AUTO_V6_GAO_NOIMU_D16.fs",
+  "release_firmware_sha256": "2a4cf272b6deb51c2d36a3acff1bd1c5374e45f4e13a0074d3ab385bb39eaf9f",
+  "servo_pin": "F13",
+  "encoder_left_a_pin": "D16",
+  "repeat_count": null,
+  "measured_distance_error_mm": null,
+  "timing_closed": false
+}

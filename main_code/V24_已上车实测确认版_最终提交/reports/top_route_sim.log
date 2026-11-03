@@ -1,0 +1,2 @@
+PASS: real S1 held-key gate; IMU readiness; actual 1400/1039/1850us pad pulses; raw sensor gate; fault latch; S3 stop; real motor/servo modules with vision boundary model
+tests/top_route_tb.sv:52: $finish called at 15529170000 (1ps)

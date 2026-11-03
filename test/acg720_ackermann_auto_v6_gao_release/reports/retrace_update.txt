@@ -1,0 +1,24 @@
+V6 left-arc retrace update
+Date: 2026-10-27 (Asia/Shanghai)
+
+Sequence is now: forward 1m, reverse 1m, left-steered arc forward 1m, reverse 1m while
+holding the same left steering command, right-steered arc forward 1m, and reverse 1m while
+holding right steering. A one-second steering settle is retained before each arc/retrace.
+Encoder counts determine each segment distance. No IMU or pose feedback guarantees exact
+path overlap or that the final chassis position exactly matches its start.
+
+The previous 2026-10-24 GAO capture and original build record describe the earlier four-
+segment version. They are retained as historical evidence and are not measurements of this
+updated sequence. Rebuild and use the current `prebuilt/ACKERMANN_AUTO_V6_GAO_NOIMU_D16.fs`.
+
+Updated Gowin V1.9.12.03 build completed 2026-10-27 19:47:32 for
+GW5AT-LV60PG484AC1/I0. Full synthesis, place/route, timing analysis, and bitstream generation
+completed; release audit found 0 setup and 0 hold violated endpoints. The updated sequence
+simulation and original motor/top safety regressions passed.
+
+Current matching file: `prebuilt/ACKERMANN_AUTO_V6_GAO_NOIMU_D16.fs`
+SHA256: `198A1ABD268C7D5DB96F01502E4ECE9C65CB7C26B677C0B16930AAE3605749E0`
+GAO version marker: `0x0602`.
+
+No board programming or physical motor test was performed for this update. The previous
+physical GAO capture remains evidence only for the older four-segment program.

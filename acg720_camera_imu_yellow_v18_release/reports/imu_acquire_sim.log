@@ -1,2 +1,0 @@
-PASS imu_acquire_tb: six retries, fault, automatic reinit/resume, valid dt, user stop; faults=1
-tests/imu_acquire_tb.sv:59: $finish called at 843527000000 (1ps)

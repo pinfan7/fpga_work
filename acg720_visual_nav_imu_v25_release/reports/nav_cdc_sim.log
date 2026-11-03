@@ -1,2 +1,0 @@
-PASS nav_cdc: atomic boxes, invalid message, frozen-frame expiry, source disable
-tests/nav_cdc_tb.sv:35: $finish called at 6485000 (1ps)

@@ -1,0 +1,32 @@
+$date synthetic parser test; not physical board data $end
+$timescale 1us $end
+$scope module test $end
+$var wire 16 ! dbg_version [15:0] $end
+$var wire 32 " dbg_sample [31:0] $end
+$var wire 4 # dbg_phase [3:0] $end
+$var wire 4 $ dbg_code [3:0] $end
+$var wire 32 % dbg_count_l [31:0] $end
+$var wire 32 & dbg_count_r [31:0] $end
+$var wire 32 ' dbg_rpm_l [31:0] $end
+$var wire 32 ( dbg_rpm_r [31:0] $end
+$var wire 16 ) dbg_pwm_l [15:0] $end
+$var wire 16 * dbg_pwm_r [15:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000011000000001 !
+b1 "
+b0100 #
+b0000 $
+b11111111111111111111111111110000 %
+b11111111111111111111111111110001 &
+b11111111111111111111111111000001 '
+b11111111111111111111111111000100 (
+b101100100 )
+b101011110 *
+#20000
+b10 "
+b1011 #
+b1001 $
+#40000
+b11 "

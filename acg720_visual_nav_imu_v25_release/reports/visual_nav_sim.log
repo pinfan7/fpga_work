@@ -1,2 +1,0 @@
-PASS visual_nav: acquisition, signed steering, creep, 100mm arrival, latches, restart, vision/TOF/IMU/encoder/watchdogs/limits/S3
-tests/visual_nav_tb.sv:68: $finish called at 4705160000 (1ps)

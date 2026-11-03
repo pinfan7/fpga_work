@@ -1,0 +1,2 @@
+PASS: 50MHz / 9600 baud, start glitch rejection, +/-2 percent sender baud tolerance, timeout
+tests/default_uart_tb.sv:32: $finish called at 18794000000 (1ps)

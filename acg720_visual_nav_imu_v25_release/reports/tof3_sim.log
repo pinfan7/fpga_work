@@ -1,2 +1,0 @@
-PASS: 3 UARTs, frame sync/checksum/status/range/framing/gap/timeout, LEDs, config bytes, telemetry, inactive drive outputs
-tests/tof3_tb.sv:89: $finish called at 379190000000 (1ps)

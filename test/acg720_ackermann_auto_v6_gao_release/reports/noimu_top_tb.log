@@ -1,0 +1,2 @@
+PASS: held start, idle IMU, disconnected/stuck IMU independence, 1500/1333/1667us pulses, 5% trim, S3
+E:\fpga_work\test\acg720_ackermann_auto_v6_gao_release\sim\noimu_top_tb.sv:50: $finish called at 8417410000 (1ps)
