@@ -1,0 +1,2 @@
+PASS yellow_cup_tb: filtering, components, border, no target, disable/reacquire
+tests/yellow_cup_tb.sv:47: $finish called at 39982880000 (1ps)

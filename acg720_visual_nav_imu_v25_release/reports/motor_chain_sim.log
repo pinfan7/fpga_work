@@ -1,0 +1,2 @@
+PASS: both real encoder-window/RPM/target/PI/PWM pipelines update; forward/reverse polarity; stop gate
+tests/motor_chain_tb.sv:37: $finish called at 2405380000 (1ps)

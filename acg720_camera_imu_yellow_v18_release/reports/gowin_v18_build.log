@@ -1,0 +1,195 @@
+*** GOWIN Tcl Command Line Console  *** 
+alog error: failed to open log file: 'C:/Users/???/AppData/Local/GowinSemi/IDE/cache/sh.log'
+Open project E:/fpga_work/acg720_camera_imu_yellow_v18_release/camera_imu_yellow_v18.gprj finished
+GowinSynthesis start
+Reading property constraint file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\constraints\compatibility.gsc"
+Running parser ...
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_box_overlay.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\crc32_d8.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\eth_udp_tx_gmii.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\ip_checksum.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v'
+WARN  (EX3788) : Block identifier is required on this block("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":58)
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\mdio_bit_shift.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\phy_reg_config.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_recovery_i2c_master.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_token_fifo.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\hdmi_stream_tx.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\tmds_encode_ce.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\reset_release.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_ab_switch.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_session_guard.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\icm42688_acquire.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\cordic_atan2.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\telemetry_formatter.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\telemetry_cdc.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_compact_overlay.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\camera_imu_subsystem.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\camera_ram16s4_regs.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\DVP_Capture\DVP_Capture.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\camera_init.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\i2c_control\i2c_bit_shift.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\i2c_control\i2c_control.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\ov5640_init_table_jpeg.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\ov5640_init_table_rgb.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_pll\camera_pll.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_pll\camera_pll_mod.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v'
+WARN  (EX3628) : Redeclaration of ANSI port 'pll_stop' is not allowed("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":58)
+Undeclared symbol 'app_rd_data_end', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":154)
+Undeclared symbol 'app_sr_active', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":157)
+Undeclared symbol 'app_ref_ack', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":158)
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\fifo_ddr3_adapter.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_memory_interface\ddr3_memory_interface.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr_pll\ddr_pll.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr_pll\ddr_pll_mod.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\gowin_ddr\gowin_ddr.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v'
+Undeclared symbol 'pattern_mode', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":127)
+WARN  (EX3638) : 'pattern_mode' is already implicitly declared on line 127("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":135)
+Undeclared symbol 'wr_load', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":233)
+Undeclared symbol 'wrfifo_wren', assumed default net type 'wire'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":253)
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\pll_init.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\pll_mDRP_intf.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\rd_data_fifo\rd_data_fifo.vo'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_driver.v'
+Analyzing included file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_parameter_cfg.v'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_driver.v":16)
+Back to file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_driver.v'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_driver.v":16)
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_parameter_cfg.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\dvi_encoder.v'
+Analyzing Verilog file 'E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\wr_data_fifo\wr_data_fifo.vo'
+WARN  (EX3073) : Port 'wrfifo_full' remains unconnected for this instance("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":364)
+Compiling module 'gao_ov5640_ddr_hdmi'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.v":1)
+Compiling module 'reset_release'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\reset_release.v":2)
+Compiling module 'yellow_cup_detector'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":5)
+Extracting RAM for identifier 'map0'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":40)
+Extracting RAM for identifier 'map1'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":40)
+Extracting RAM for identifier 'bounds0'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":41)
+Extracting RAM for identifier 'bounds1'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":41)
+Extracting RAM for identifier 'queue'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":43)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 13("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":38)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":112)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":139)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":142)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":143)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":160)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_cup_detector.v":160)
+Compiling module 'yellow_box_overlay'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\yellow_box_overlay.v":3)
+Compiling module 'phy_reg_config'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\phy_reg_config.v":1)
+Compiling module 'mdio_bit_shift'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\mdio_bit_shift.v":1)
+Compiling module 'video_udp_mirror'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v":4)
+Extracting RAM for identifier 'memory'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v":11)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 16("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v":48)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 8("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v":59)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_udp_mirror.v":60)
+Compiling module 'eth_udp_tx_gmii'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\eth_udp_tx_gmii.v":21)
+Compiling module 'ip_checksum'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\ip_checksum.v":18)
+Compiling module 'crc32_d8'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\crc32_d8.v":20)
+Compiling module 'gmii_to_rgmii'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":20)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":55)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":55)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":55)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":55)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":67)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'D0'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":76)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'D1'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":77)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\gmii_to_rgmii.v":78)
+Compiling module 'video_ab_switch(DEBOUNCE_CYCLES=500000,ACTIVE_WIDTH=640,DEFAULT_OSD=1'b1)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_ab_switch.v":4)
+Compiling module 'video_key_press(CYCLES=500000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_ab_switch.v":57)
+Compiling module 'camera_imu_subsystem'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\camera_imu_subsystem.v":2)
+Compiling module 'imu_session_guard'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_session_guard.v":3)
+Compiling module 'icm42688_acquire(BOOT_CYCLES=50000000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\icm42688_acquire.v":5)
+Compiling module 'imu_recovery_i2c_master'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_recovery_i2c_master.v":4)
+Compiling module 'imu_attitude'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v":6)
+Compiling module 'cordic_atan2'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\cordic_atan2.v":4)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 16("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v":98)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 16("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v":98)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 16("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v":98)
+WARN  (EX3791) : Expression size 48 truncated to fit in target size 32("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_attitude.v":114)
+Compiling module 'telemetry_formatter'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\telemetry_formatter.v":4)
+Compiling module 'telemetry_cdc(WIDTH=288)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\telemetry_cdc.v":5)
+Compiling module 'imu_compact_overlay'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\imu_compact_overlay.v":4)
+Compiling module 'camera_pll'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_pll\camera_pll.v":1)
+Compiling module 'camera_pll_MOD'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_pll\camera_pll_mod.v":10)
+Compiling module 'PLL_INIT(MULTI_FAC=15)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\pll_init.v":4)
+Compiling module 'camera_init(SCL_CLOCK=100000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\camera_init.v":18)
+Compiling module 'ov5640_init_table_rgb(IMAGE_WIDTH=640,IMAGE_HEIGHT=480,IMAGE_FLIP_EN=0,IMAGE_MIRROR_EN=0)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\ov5640_init_table_rgb.v":18)
+Compiling module 'i2c_control(SCL_CLOCK=100000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\i2c_control\i2c_control.v":18)
+Compiling module 'i2c_bit_shift(SCL_CLOCK=100000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\camera_init\i2c_control\i2c_bit_shift.v":18)
+Compiling module 'DVP_Capture'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\DVP_Capture\DVP_Capture.v":18)
+Compiling module '**'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\pll_mDRP_intf.v":76)
+Compiling module 'ddr_pll'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr_pll\ddr_pll.v":1)
+Compiling module 'ddr_pll_MOD'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr_pll\ddr_pll_mod.v":10)
+Compiling module 'PLL_INIT(MULTI_FAC=16)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\pll_init.v":4)
+Compiling module 'ddr3_ctrl_2port(FRAME_PIXELS=307200)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":1)
+Compiling module 'fifo_ddr3_adapter(FRAME_PIXELS=307200)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\fifo_ddr3_adapter.v":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 28("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\fifo_ddr3_adapter.v":79)
+Compiling module 'rd_data_fifo'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\rd_data_fifo\rd_data_fifo.vo":8)
+Compiling module 'camera_ram16s4_regs(INIT_0=16'h0000,INIT_1=16'h0000,INIT_2=16'h0000,INIT_3=16'h0000)'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\camera_ram16s4_regs.v":5)
+Compiling module 'wr_data_fifo'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\wr_data_fifo\wr_data_fifo.vo":8)
+Compiling module 'DDR3_Memory_Interface_Top'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_memory_interface\ddr3_memory_interface.v":19103)
+Compiling module '**'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_memory_interface\ddr3_memory_interface.v":19102)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'burst'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ddr3_ctrl_2port\ddr3_ctrl_2port.v":162)
+Compiling module 'disp_driver'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\vga\disp_driver.v":18)
+Compiling module 'hdmi_stream_tx'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\hdmi_stream_tx.v":5)
+Compiling module 'video_token_fifo'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_token_fifo.v":5)
+Extracting RAM for identifier 'memory'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\video_token_fifo.v":14)
+Compiling module 'tmds_encode_ce'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\tmds_encode_ce.v":4)
+Compiling module 'stream_tmds_lane'("E:\fpga_work\acg720_camera_imu_yellow_v18_release\rtl\hdmi_stream_tx.v":50)
+NOTE  (EX0101) : Current top module is "gao_ov5640_ddr_hdmi"
+WARN  (SC0008) : Override property "syn_srlstyle" to "registers"("E:\fpga_work\acg720_camera_imu_yellow_v18_release\constraints\compatibility.gsc":2)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ip_checksum" instantiated to "ip_checksum" is swept in optimizing("E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ethernet\eth_udp_tx_gmii.v":160)
+[95%] Generate netlist file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\gwsynthesis\camera_imu_yellow_v18.vg" completed
+[100%] Generate report file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\gwsynthesis\camera_imu_yellow_v18_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\gwsynthesis\camera_imu_yellow_v18.vg"
+Parsing netlist file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\gwsynthesis\camera_imu_yellow_v18.vg" completed
+Processing netlist completed
+Reading constraint file: "E:\fpga_work\acg720_camera_imu_yellow_v18_release\src\ov5640_ddr3_hdmi.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'ddr3_ctrl_2port/DDR3_Memory_Interface_Top/gw3_top/u_ddr_phy_top/fclkdiv/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'camera_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\pnr\camera_imu_yellow_v18.power.html" completed
+Generate file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\pnr\camera_imu_yellow_v18.pin.html" completed
+Generate file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\pnr\camera_imu_yellow_v18.rpt.html" completed
+Generate file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\pnr\camera_imu_yellow_v18.rpt.txt" completed
+Generate file "E:\fpga_work\acg720_camera_imu_yellow_v18_release\impl\pnr\camera_imu_yellow_v18.tr.html" completed
+Sun Oct 25 17:11:22 2026
+

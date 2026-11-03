@@ -1,0 +1,13 @@
+{
+  "confirmation_date": "2026-11-02",
+  "actual_test_date": null,
+  "basis": "参赛团队在本次会话中明确确认该工程已实测并成功",
+  "reported_passed_functions": ["黄色目标识别", "自动转向并接近目标", "接近后停车"],
+  "project": "visual_nav_imu_v25.gprj",
+  "release_firmware": "prebuilt/25_V25_VISUAL_IMU_0x2501.fs",
+  "release_firmware_sha256": "3c3ed93dd725e34881c000aece236c4fc1d5eecb56c0d2fec872ed75cd85c805",
+  "firmware_identity_basis": "本次确认对应当前工程交付固件；未独立读取板上配置",
+  "timing_closed": false,
+  "repeat_count": null,
+  "measured_stop_error_mm": null
+}
